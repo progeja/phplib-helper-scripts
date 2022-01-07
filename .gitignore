@@ -1,3 +1,7 @@
 .idea/
 
 data/
+
+/vendor/
+
+.php_cs.cache

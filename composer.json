@@ -1,0 +1,22 @@
+{
+    "name"       : "progeja/phplib-helper-scripts",
+    "description": "Small helper scripts",
+    "type"       : "library",
+    "autoload"   : {
+        "psr-4": {
+            "Bookmarker\\"  : "bookmark-parser/",
+            "Progeja\\Dir\\": "dir-parser/",
+            "Mediainfo\\"   : "mediainfo-parser/",
+            "Common\\"      : "src/"
+        }
+    },
+    "authors"    : [
+        {
+            "name" : "Progeja",
+            "email": "progeja@gmail.com"
+        }
+    ],
+    "require"    : {
+        "php": "^8.0 || ^8.1"
+    }
+}
